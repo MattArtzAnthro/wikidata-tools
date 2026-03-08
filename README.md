@@ -70,9 +70,9 @@ Each notebook installs its own dependencies and includes configuration, document
 
 ## Citation
 
-> Artz, M. (2026). Wikidata Tools. GitHub. https://github.com/MattArtzAnthro/wikidata-tools
+> Artz, Matt. (2026). MattArtzAnthro/wikidata-tools. Zenodo. https://doi.org/10.5281/zenodo.18912858
 
-*A citable DOI will be available via Zenodo.*
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18912858.svg)](https://doi.org/10.5281/zenodo.18912858)
 
 ## License
 
