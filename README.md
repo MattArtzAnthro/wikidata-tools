@@ -58,6 +58,10 @@ These notebooks are designed for [Google Colab](https://colab.research.google.co
 
 Each notebook installs its own dependencies and includes configuration, documentation, and export functionality.
 
+### Contact address
+
+Notebooks that call Wikidata, Crossref, OpenAlex or ORCID send `noreply@example.org` as the contact in their User-Agent and `mailto=` parameter. To be identifiable to those services, replace it with your own address in the configuration cell of your copy. Do not commit a personal address back to this repository; `scripts/check.sh` fails if the maintainer's address appears in any notebook.
+
 ## Key Concepts
 
 - **Scholarly endpoint**: Since May 2025, Wikidata splits queries — articles live on `query-scholarly.wikidata.org`, while people and organizations remain on `query.wikidata.org`. Each notebook documents which endpoint it uses.
