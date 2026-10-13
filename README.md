@@ -60,7 +60,7 @@ Each notebook installs its own dependencies and includes configuration, document
 
 ### Contact address
 
-Notebooks that call Wikidata, Crossref, OpenAlex or ORCID send `noreply@example.org` as the contact in their User-Agent and `mailto=` parameter. To be identifiable to those services, replace it with your own address in the configuration cell of your copy. Do not commit a personal address back to this repository; `scripts/check.sh` fails if the maintainer's address appears in any notebook.
+Notebooks that call Wikidata, Crossref, OpenAlex or ORCID send `noreply@example.org` as the contact in their User-Agent and `mailto=` parameter. To be identifiable to those services, replace it with your own address in the configuration cell of your copy. Do not commit a personal address back as a contact; `scripts/check.sh` fails if the maintainer's address is used as a request contact in any notebook.
 
 ## Key Concepts
 
